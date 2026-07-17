@@ -1,15 +1,25 @@
-# STM32CubeIDE build outputs
-Debug/
-Release/
+# STM32CubeIDE build output
+/Debug/
+/Release/
 
-# Eclipse / STM32CubeIDE workspace metadata
-.settings/
-*.launch
+# Compiler and linker artifacts
+*.o
+*.d
+*.su
+*.cyclo
+*.elf
+*.map
+*.list
+*.hex
+*.bin
 
-# Editor and operating system files
+# Operating-system metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor metadata
 .vscode/
 .idea/
 *.swp
 *.tmp
-Thumbs.db
-Desktop.ini
