@@ -1,0 +1,15 @@
+# STM32CubeIDE build outputs
+Debug/
+Release/
+
+# Eclipse / STM32CubeIDE workspace metadata
+.settings/
+*.launch
+
+# Editor and operating system files
+.vscode/
+.idea/
+*.swp
+*.tmp
+Thumbs.db
+Desktop.ini
